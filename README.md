@@ -31,9 +31,7 @@ Below electronic components are used in this solution:
 
 One key point in turning On and Off the devices is, we have to consider the polarity of the device. Some devices will work for common positive voltage and some will be for common negative.
 
-<video controls>
-  <source src="Docs/WorkingOfLED.mp4" type="video/mp4">
-</video>
+<a href='Docs/WorkingOfLED.mp4' target='_blank'><img src='Docs/VideoThumb.png'/></a>
 
 *Working of a common anode LED.*
 

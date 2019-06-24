@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="{{ url_for('static',filename='styles/style.css') }}" rel="stylesheet" />
+    <title>Electric Server - Raspberry Pi</title>
+</head>
+
+<body>
+    <div class="container ">
+        <h2>Welcome to Electric Server</h2>
+        <hr/>
+
+        <div class="form-group">
+            <span class="switch switch-lg">
+                <input type="checkbox" class="switch"  id="switch">
+                <label for="switch">Device On / Off</label>
+            </span>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        crossorigin="anonymous"></script>
+    <script src='{{ url_for('static',filename='scripts/app.js') }}'></script>
+</body>
+
+</html>

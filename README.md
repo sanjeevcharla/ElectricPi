@@ -1,4 +1,4 @@
-# PiElectric
+# ElectricPi
 
 To control an electic device via a relay, through Raspberry Pi, which has the API and will be triggered by a battery monitor app in laptop.
 

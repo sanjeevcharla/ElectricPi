@@ -6,7 +6,7 @@ Using this solution, we can power On or Off an electric device (such as a laptop
 
 ## Introduction
 
-![Screenshot](Docs/PiElectric.jpg)  
+![Screenshot](Docs/ElectricPi.png)  
 
 As shown in the above image, this solution contains four key phases:
 
